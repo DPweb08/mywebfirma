@@ -248,7 +248,7 @@ h1 {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../Slike/Rad6/rad6_image1.jpg");
+    background-image: url("../Slike/rad6/rad6_image1.jpg");
     opacity: 0;
     transform: translate(-100px, 0);
     /* KLJUČNA PROMJENA: Razdvajamo tranzicije. 
