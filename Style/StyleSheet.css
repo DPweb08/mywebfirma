@@ -1380,7 +1380,7 @@ animation: changeimage1 15s infinite ease-in-out;
    9. Sekcija kotlovnice
    ========================================================================== */
 .main_kotlovnice {
-    background-image: url("../Slike/kotlovnice/kotlovnice_image4.png");
+    background-image: url("../Slike/kotlovnice/Kotlovnice_image4.png");
     min-height: 70vh;
     background-position:center;
 }
@@ -1428,54 +1428,54 @@ animation: changeimage1 15s infinite ease-in-out;
     background-position: center;
 }
     .bs_kotlovnice:nth-child(1) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image1.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image1.png");
         height:225px;
     }
 
     .bs_kotlovnice:nth-child(2) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image2.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image2.png");
     }
 
     .bs_kotlovnice:nth-child(3) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image3.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image3.png");
     }
 
     .bs_kotlovnice:nth-child(4) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image4.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image4.png");
         height: 225px;
     }
 
     .bs_kotlovnice:nth-child(5) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image5.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image5.png");
         height: 225px;
     }
 
     .bs_kotlovnice:nth-child(6) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image6.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image6.png");
     }
 
     .bs_kotlovnice:nth-child(7) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image7.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image7.png");
     }
 
     .bs_kotlovnice:nth-child(8) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image8.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image8.png");
         height: 225px;
     }
 
     .bs_kotlovnice:nth-child(9) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image9.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image9.png");
     }
     .bs_kotlovnice:nth-child(10) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image10.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image10.png");
     }
 
     .bs_kotlovnice:nth-child(11) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image11.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image11.png");
     }
 
     .bs_kotlovnice:nth-child(12) {
-        background-image: url("../Slike/kotlovnice/kotlovnice_image12.png");
+        background-image: url("../Slike/kotlovnice/Kotlovnice_image12.png");
     }
 /* ==========================================================================
    10. Sekcija vodovod
