@@ -2139,7 +2139,7 @@ animation: changeimage1 15s infinite ease-in-out;
 
     /* Kartice usluga, odabira i kontakata na punu širinu */
     .b-usluga, .b-odabir, .b-kontakti {
-        max-width: 40%;
+        max-width: 100%;
         margin-bottom: 10px;
     }
 
