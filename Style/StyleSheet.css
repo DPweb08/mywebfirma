@@ -1001,6 +1001,68 @@ animation: changeimage1 15s infinite ease-in-out;
 .s-frezanje .n1{
     color:#ffffff;
 }
+.s-prednosti {
+    padding: 40px 20px;
+    background-color: #037aca;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+    .s-prednosti li {
+        border: 3px solid white;
+        padding: 20px 50px;
+        border-radius: 20px;
+        margin: 5px;
+        list-style: none;
+        font-weight: bold;
+        opacity: 0;
+        transform: translateX(100px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+
+        /* Kada se doda klasa "prikazi" */
+        .s-prednosti li.prikazi {
+            opacity: 1;
+            transform: translateX(0);
+        }
+
+        .s-prednosti li:nth-child(2) {
+            transition-delay: 0.1s;
+        }
+
+        .s-prednosti li:nth-child(3) {
+            transition-delay: 0.2s;
+        }
+
+        .s-prednosti li:nth-child(4) {
+            transition-delay: 0.3s;
+        }
+
+        .s-prednosti li:nth-child(5) {
+            transition-delay: 0.4s;
+        }
+
+        .s-prednosti li:nth-child(6) {
+            transition-delay: 0.5s;
+        }
+
+        .s-prednosti li:nth-child(7) {
+            transition-delay: 0.6s;
+        }
+
+        .s-prednosti li:nth-child(8) {
+            transition-delay: 0.7s;
+        }
+.s-prednosti .n2{
+    text-align:start;
+}
+    .s-prednosti .n1 {
+        color: white;
+        text-shadow: 7px 8px 4px rgba(0,0,0,0.53);
+    }
 .g_frezanje {
     display: flex;
     justify-content: center;
@@ -1008,6 +1070,12 @@ animation: changeimage1 15s infinite ease-in-out;
     gap: 25px;
     width: 100%;
     max-width: 1500px;
+}
+.g_frezanje1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 100%;
 }
 .bs_frezanje{
     border: 3px solid white;
@@ -1023,66 +1091,20 @@ animation: changeimage1 15s infinite ease-in-out;
     background-repeat: no-repeat;
     background-position: center;
 }
-.bs_frezanje:nth-child(1) {
-    background-image: url("../Slike/Frezanje/Frezanje_image1.png");
+.box-image {
+    position: absolute;
+    border-radius: 4px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit: cover; /* Reže video da savršeno popuni 300x400px bez distorzije */
+    z-index: 1;
 }
-.bs_frezanje:nth-child(2) {
-    background-image: url("../Slike/Frezanje/Frezanje_image2.png");
-}
-.bs_frezanje:nth-child(3) {
-    background-image: url("../Slike/Frezanje/Frezanje_image3.png");
-}
-.bs_frezanje:nth-child(4) {
-    background-image: url("../Slike/Frezanje/Frezanje_image5.png");
-}
-.bs_frezanje:nth-child(5) {
-    background-image: url("../Slike/Frezanje/Frezanje_image6.png");
-}
-.bs_frezanje:nth-child(6) {
-    background-image: url("../Slike/Frezanje/Frezanje_image7.png");
-}
-.bs_frezanje:nth-child(7) {
-    background-image: url("../Slike/Frezanje/Frezanje_image8.png");
-}
-.bs_frezanje:nth-child(8) {
-    background-image: url("../Slike/Frezanje/Frezanje_image9.png");
-}
-.bs_frezanje:nth-child(9) {
-    background-image: url("../Slike/Frezanje/Frezanje_image10.png");
-}
-.bs_frezanje:nth-child(10) {
-    background-image: url("../Slike/Frezanje/Frezanje_image11.png");
-}
-.bs_frezanje:nth-child(11) {
-    background-image: url("../Slike/Frezanje/Frezanje_image12.png");
-}
-.bs_frezanje:nth-child(12) {
-    background-image: url("../Slike/Frezanje/Frezanje_image13.png");
-}
-.bs_frezanje:nth-child(13) {
-    background-image: url("../Slike/Frezanje/Frezanje_image14.png");
-}
-.bs_frezanje:nth-child(14) {
-    background-image: url("../Slike/Frezanje/Frezanje_image15.png");
-}
-.bs_frezanje:nth-child(15) {
-    background-image: url("../Slike/Frezanje/Frezanje_image16.png");
-}
-.bs_frezanje:nth-child(16) {
-    background-image: url("../Slike/Frezanje/Frezanje_image17.png");
-}
-.bs_frezanje:nth-child(17) {
-    background-image: url("../Slike/Frezanje/Frezanje_image18.png");
-}
-.bs_frezanje:nth-child(18) {
-    background-image: url("../Slike/Frezanje/Frezanje_image20.png");
-}
-.bs_frezanje:nth-child(19) {
-    background-image: url("../Slike/Frezanje/Frezanje_image21.png");
-}
-.bs_frezanje:nth-child(20) {
-    background-image: url("../Slike/Frezanje/Frezanje_image22.png");
-}
+@media (max-width: 768px) {
+    .g_frezanje1 {
+        flex-direction: column;
+    }
 /* ==========================================================================
    7. Sekcija podno
    ========================================================================== */
