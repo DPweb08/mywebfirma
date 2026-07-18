@@ -1253,49 +1253,17 @@ animation: changeimage1 15s infinite ease-in-out;
     position: relative;
     width: 100%;
     max-width: 300px; /* Malo povećana da drži balans s tekstom */
-    height: 400px; /* Povećana visina da prati dužinu desnog teksta */
+    height: 399px; /* Povećana visina da prati dužinu desnog teksta */
     box-sizing: border-box;
     text-align: center;
     border-radius: 8px;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
-    .bs_centralno:nth-child(1) {
-        background-image: url("../Slike/centralno/Centralno_image2.png");
-    }
-
-    .bs_centralno:nth-child(2) {
-        background-image: url("../Slike/centralno/Centralno_image3.png");
-    }
-
-    .bs_centralno:nth-child(3) {
-        background-image: url("../Slike/centralno/Centralno_image4.png");
-    }
-
-    .bs_centralno:nth-child(4) {
-        background-image: url("../Slike/centralno/Centralno_image5.png");
-    }
-
-    .bs_centralno:nth-child(5) {
-        background-image: url("../Slike/centralno/Centralno_image6.png");
-    }
-
-    .bs_centralno:nth-child(6) {
-        background-image: url("../Slike/centralno/Centralno_image10.png");
-    }
-
-    .bs_centralno:nth-child(7) {
-        background-image: url("../Slike/centralno/Centralno_image11.png");
-    }
-
-    .bs_centralno:nth-child(8) {
-        background-image: url("../Slike/centralno/Centralno_image12.png");
-    }
-
-    .bs_centralno:nth-child(9) {
-        background-image: url("../Slike/centralno/Centralno_image13.png");
-    }
+.bs_centralno .box-image{
+    height:auto;
+}
 /* ==========================================================================
    9. Sekcija kotlovnice
    ========================================================================== */
