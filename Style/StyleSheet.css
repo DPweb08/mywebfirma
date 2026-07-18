@@ -1268,7 +1268,7 @@ animation: changeimage1 15s infinite ease-in-out;
    9. Sekcija kotlovnice
    ========================================================================== */
 .main_kotlovnice {
-    background-image: url("../Slike/kotlovnice/Kotlovnice_image4.png");
+    background-image: url("../Slike/kotlovnice/kotlovnice_image4.png");
     min-height: 70vh;
     background-position:center;
 }
@@ -1311,203 +1311,13 @@ animation: changeimage1 15s infinite ease-in-out;
     box-sizing: border-box;
     text-align: center;
     border-radius: 8px;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
-    .bs_kotlovnice:nth-child(1) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image1.png");
-        height:225px;
-    }
-
-    .bs_kotlovnice:nth-child(2) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image2.png");
-    }
-
-    .bs_kotlovnice:nth-child(3) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image3.png");
-    }
-
-    .bs_kotlovnice:nth-child(4) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image4.png");
-        height: 225px;
-    }
-
-    .bs_kotlovnice:nth-child(5) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image5.png");
-        height: 225px;
-    }
-
-    .bs_kotlovnice:nth-child(6) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image6.png");
-    }
-
-    .bs_kotlovnice:nth-child(7) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image7.png");
-    }
-
-    .bs_kotlovnice:nth-child(8) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image8.png");
-        height: 225px;
-    }
-
-    .bs_kotlovnice:nth-child(9) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image9.png");
-    }
-    .bs_kotlovnice:nth-child(10) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image10.png");
-    }
-
-    .bs_kotlovnice:nth-child(11) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image11.png");
-    }
-
-    .bs_kotlovnice:nth-child(12) {
-        background-image: url("../Slike/kotlovnice/Kotlovnice_image12.png");
-    }
-/* ==========================================================================
-   10. Sekcija vodovod
-   ========================================================================== */
-.main_vodovod {
-    background-image: url("../Slike/vodovod/vodovod_image4.png");
-    min-height: 70vh;
-    background-position: center;
+.bs_kotlovnice .box-image {
+    height: auto;
 }
-
-.n2 {
-    color: black;
-    font-size: 25px;
-    text-align: center;
-}
-
-.s-vodovod {
-    padding: 80px 20px;
-    background-color: #1f536b;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    scroll-margin-top: 40px;
-}
-
-    .s-vodovod .n1 {
-        color: #ffffff;
-    }
-
-.g_vodovod {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 25px;
-    width: 100%;
-    max-width: 1500px;
-}
-
-.bs_vodovod {
-    border: 3px solid white;
-    padding: 30px 20px;
-    position: relative;
-    width: 100%;
-    max-width: 300px; /* Malo povećana da drži balans s tekstom */
-    height: 400px; /* Povećana visina da prati dužinu desnog teksta */
-    box-sizing: border-box;
-    text-align: center;
-    border-radius: 8px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-    .bs_vodovod:nth-child(1) {
-        background-image: url("../Slike/vodovod/vodovod_image1.png");
-    }
-
-    .bs_vodovod:nth-child(2) {
-        background-image: url("../Slike/vodovod/vodovod_image2.png");
-    }
-
-    .bs_vodovod:nth-child(3) {
-        background-image: url("../Slike/vodovod/vodovod_image15.png");
-        height:225px;
-    }
-
-    .bs_vodovod:nth-child(4) {
-        background-image: url("../Slike/vodovod/vodovod_image16.png");
-    }
-
-    .bs_vodovod:nth-child(5) {
-        background-image: url("../Slike/vodovod/vodovod_image9.png");
-    }
-
-    .bs_vodovod:nth-child(6) {
-        background-image: url("../Slike/vodovod/vodovod_image11.png");
-    }
-
-    .bs_vodovod:nth-child(7) {
-        background-image: url("../Slike/vodovod/vodovod_image8.png");
-        height: 225px;
-    }
-
-    .bs_vodovod:nth-child(8) {
-        background-image: url("../Slike/vodovod/vodovod_image18.png");
-        height: 225px;
-    }
-
-    .bs_vodovod:nth-child(9) {
-        background-image: url("../Slike/vodovod/vodovod_image5.png");
-        height: 225px;
-    }
-
-    .bs_vodovod:nth-child(10) {
-        background-image: url("../Slike/vodovod/vodovod_image10.png");
-    }
-
-    .bs_vodovod:nth-child(11) {
-        background-image: url("../Slike/vodovod/vodovod_image23.png");
-    }
-
-    .bs_vodovod:nth-child(12) {
-        background-image: url("../Slike/vodovod/vodovod_image12.png");
-    }
-
-    .bs_vodovod:nth-child(13) {
-        background-image: url("../Slike/vodovod/vodovod_image13.png");
-    }
-
-    .bs_vodovod:nth-child(14) {
-        background-image: url("../Slike/vodovod/vodovod_image14.png");
-    }
-
-    .bs_vodovod:nth-child(15) {
-        background-image: url("../Slike/vodovod/vodovod_image3.png");
-    }
-
-    .bs_vodovod:nth-child(16) {
-        background-image: url("../Slike/vodovod/vodovod_image4.png");
-    }
-
-    .bs_vodovod:nth-child(17) {
-        background-image: url("../Slike/vodovod/vodovod_image17.png");
-    }
-
-    .bs_vodovod:nth-child(18) {
-        background-image: url("../Slike/vodovod/vodovod_image6.png");
-        height: 225px;
-    }
-
-    .bs_vodovod:nth-child(19) {
-        background-image: url("../Slike/vodovod/vodovod_image19.png");
-    }
-
-    .bs_vodovod:nth-child(20) {
-        background-image: url("../Slike/vodovod/vodovod_image20.png");
-    }
-
-    .bs_vodovod:nth-child(21) {
-        background-image: url("../Slike/vodovod/vodovod_image21.png");
-    }
-
-    .bs_vodovod:nth-child(22) {
-        background-image: url("../Slike/vodovod/vodovod_image22.png");
-    }
 /* ==========================================================================
    11. Sekcija kupaonice
    ========================================================================== */
