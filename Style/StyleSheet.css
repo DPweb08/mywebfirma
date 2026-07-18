@@ -1268,7 +1268,7 @@ animation: changeimage1 15s infinite ease-in-out;
    9. Sekcija kotlovnice
    ========================================================================== */
 .main_kotlovnice {
-    background-image: url("../Slike/kotlovnice/kotlovnice_image4.png");
+    background-image: url("../Slike/kotlovnice/Kotlovnice_image4.png");
     min-height: 70vh;
     background-position:center;
 }
