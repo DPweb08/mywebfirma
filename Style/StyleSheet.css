@@ -1474,52 +1474,6 @@ animation: changeimage1 15s infinite ease-in-out;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-    .bs_iskopi:nth-child(1) {
-        background-image: url("../Slike/iskopi/iskopi_image1.png");
-
-    }
-
-    .bs_iskopi:nth-child(2) {
-        background-image: url("../Slike/iskopi/iskopi_image2.png");
-    }
-
-    .bs_iskopi:nth-child(3) {
-        background-image: url("../Slike/iskopi/iskopi_image3.png");
-    }
-
-    .bs_iskopi:nth-child(4) {
-        background-image: url("../Slike/iskopi/iskopi_image4.png");
-
-    }
-
-    .bs_iskopi:nth-child(5) {
-        background-image: url("../Slike/iskopi/iskopi_image5.png");
-
-    }
-
-    .bs_iskopi:nth-child(6) {
-        background-image: url("../Slike/iskopi/iskopi_image6.png");
-    }
-
-    .bs_iskopi:nth-child(7) {
-        background-image: url("../Slike/iskopi/iskopi_image7.png");
-    }
-
-    .bs_iskopi:nth-child(8) {
-        background-image: url("../Slike/iskopi/iskopi_image8.png");
-        height: 225px;
-    }
-
-    .bs_iskopi:nth-child(9) {
-        background-image: url("../Slike/iskopi/iskopi_image9.png");
-        height: 225px;
-    }
-    .bs_iskopi:nth-child(10) {
-        background-image: url("../Slike/iskopi/iskopi_image9.png");
-        height: 225px;
-    }
-
 /* ==========================================================================
    13. Sekcija drenaza
    ========================================================================== */
