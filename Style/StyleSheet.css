@@ -1525,23 +1525,6 @@ animation: changeimage1 15s infinite ease-in-out;
     background-repeat: no-repeat;
     background-position: center;
 }
-
-    .bs_drenaza:nth-child(1) {
-        background-image: url("../Slike/drenaže/drenaze_image1.png");
-    }
-
-    .bs_drenaza:nth-child(2) {
-        background-image: url("../Slike/drenaže/drenaze_image2.png");
-    }
-
-    .bs_drenaza:nth-child(3) {
-        background-image: url("../Slike/drenaže/drenaze_image3.png");
-    }
-
-    .bs_drenaza:nth-child(4) {
-        background-image: url("../Slike/drenaže/drenaze_image4.png");
-        height:225px;
-    }
 /* ==========================================================================
    14. Sekcija okucnica
    ========================================================================== */
