@@ -1139,7 +1139,7 @@ animation: changeimage1 15s infinite ease-in-out;
     z-index: 1;
 }
 @media (max-width: 768px) {
-    .g_frezanje1 {
+    .g_odabir {
         flex-direction: column;
     }
 }
